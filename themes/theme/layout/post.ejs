@@ -1,0 +1,19 @@
+<!-- Post Laytout (post.ejs) -->
+<body class="post">
+  
+  <%- partial('_partial/navigation', {title: page.title, category: page.categories[0]}) %>
+  
+  <main>
+    <article>
+
+      <% if (page.youtube) { %>
+        <%- partial('_partial/embed-youtube', {item: page}) %>
+      <% } else { %>
+        <%- partial('_partial/post-image', {item: page}) %>
+      <% } %>
+
+      <%- page.content %>
+
+    </article>
+  </main>
+</body>
