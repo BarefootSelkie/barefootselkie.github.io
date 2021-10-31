@@ -24,7 +24,10 @@ jobs:
     - name: Install Dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: npm ci
-    
+    # Use the output from the `deploy` step(use for test action)
+    - name: Echo out the deploy key
+      run: |
+        echo "${{ secrets.DEPLOY_KEY }}"    
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
