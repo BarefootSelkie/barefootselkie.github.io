@@ -103,4 +103,4 @@ deploy:
   type: git
   repo: https://github.com/BarefootSelkie/website
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+  branch: published
