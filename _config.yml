@@ -101,6 +101,6 @@ theme: theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/BarefootSelkie/website
+  repo: git@github.com:BarefootSelkie/website.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: published
