@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Master page layout - layout.ejs -->
+
+<html lang="en">
+  
+  <!-- html header tag -->
+	<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Metadata - This controls how social media sites linking to the website show content -->
+
+  <!--Description-->
+  
+	  <meta name="description" content="On the 22nd of April 2016 I decided that for the sake of interest I would start keeping a record of all the train journeys that I’ve made. Origanially">
+  
+
+  <!--Author-->
+  
+	  <meta name="author" content="Barefoot Selkie">
+  
+
+  <!-- Open graph is what appears on facebook -->
+  <!--Open Graph Title-->
+  
+	  <meta property="og:title" content="Travel Stats"/>
+  
+
+  <!--Open Graph Description-->
+  
+
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="Barefoot Selkie"/>
+
+  <!--Type page-->
+  
+	  <meta property="og:type" content="article" />
+  
+
+  <!--Page Cover-->
+  
+
+	  <meta name="twitter:card" content="summary" />
+  
+
+	<!-- Browser Title -->
+	
+	<title>Travel Stats - Barefoot Selkie</title>
+
+	<!-- Styling -->
+	
+<link rel="stylesheet" href="/css/style.css">
+
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+  
+  <!-- page body, uses index.ejs, page.ejs, post.ejs, or archive.ejs -->
+  <!-- Post Laytout (post.ejs) -->
+<body class="post">
+  
+  <!-- navigation.ejs -->
+
+
+
+<header>
+<nav id="navigation">
+    
+    <a href="/">
+        <img src="/icons/home.svg" class="icon">
+    </a>
+      
+    <h1 id="title">  
+      <a href="/">
+        <span class="site-title">Barefoot Selkie</span>
+      </a>
+
+      
+        
+        <span class="title-divider"> &gt; </span>
+        
+        <a href="/projects/">
+          <span class="category">Projects</span>
+        </a>
+        
+        
+      
+      
+
+      <span class="title-divider"> &gt; </span>
+
+      
+          <span class="page-title">Travel Stats</span>
+      
+    </h1>
+    
+    
+      <a href="/projects/">
+        <img src="/icons/close.svg" class="icon">
+      </a>
+    
+
+</nav>
+</header>
+  
+  <main>
+    <article>
+
+      
+        
+      
+
+      <p>On the 22nd of April 2016 I decided that for the sake of interest I would start keeping a record of all the train journeys that I’ve made. Origanially the idea was to keep track of the number of journeys, but over time I started tracking a bit more data. This is an evolving project and you can read more about it on the <a href="/projects/travel-stats">Travel Stats Project Page</a> but below you can see some statstics about my travel and some visualisations of those statistics.</p>
+<h2 id="Visualising-the-data"><a href="#Visualising-the-data" class="headerlink" title="Visualising the data:"></a>Visualising the data:</h2><div id="travel-stats-content"></div>
+
+<script>
+    $("#travel-stats-content").load("/travel-stats/embed.html")
+</script>
+
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li>This page may take a few seconds to load, that is normal because it’s pulling in data from several outside sources.</li>
+<li>This page is broken on most small mobile devices and on tablets in portrate mode, it is a known bug and will be addressed at some point. <ul>
+<li>There is a view of this data that strips out the site content that draws a little better but it is still not perfect, <a href="/travel-stats/view.html">here</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+    </article>
+  </main>
+</body>
+
+</html>
